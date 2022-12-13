@@ -46,7 +46,7 @@ function setUpMovieDetails(funMovie){
 //title
     const movieTitle = document.querySelector('#title');
     movieTitle.textContent = funMovie.title;
-    //runtime 
+    //runtime
     const movieTime = document.querySelector('#runtime');
     movieTime.textContent = `${funMovie.runtime} minutes`;
     //description
